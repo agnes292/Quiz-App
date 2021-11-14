@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Quiz</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js" defer="true"></script>
+</head>
+
+<body>
+  <!--
+
+    ******************************************
+    DO NOT TRANSCRIBE THE ARTICLE YOURSELF!!!!
+    ******************************************
+
+    You do not have to type in all of the text on the page!
+
+    The contents of the article is in `index-content.txt`, which is
+    included in this directory. Copy and paste the contents of that file into
+    this HTML file as needed. You should only need to add HTML to markup the
+    content.
+
+  -->
+
+  <header>
+    <div class="course">WPR</div>
+        <div class="mern">
+            <span>M</span>
+            <span>E</span>
+            <span>R</span>
+            <span>N</span>
+        </div>
+  </header>
+
+  <article>
+
+    <section id="quizname">
+      <h1>HTML Quiz</h1>
+    </section>
+    <section id="author">By Ngoc Ha</section>
+
+    
+    <section id="introduction">
+      <h2>The Test</h2>
+      <p>The test contains 10 questions and there is no time limit.</p>
+      <p>The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.</p>
+      <h2>Count Your Score</h2>
+      <p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.</p>
+
+      <div class="start">
+        <h2>Start the quiz</h2>
+        <div class="gl">Good luck!</div>
+        <button class="start-btn">Start the HTML quiz ❯</button>
+      </div>
+    </section>
+
+
+    <section id="attempt-quiz">
+      <div class="question-container">
+          <h2 class="question">Question 1 of 10 </h2>
+          <div class="question-text">question 1</div>
+          <div class="answers">
+              <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+
+          </div>
+          <div class="question-container">
+              <h2 class="question">Question 2 of 10 </h2>
+              <div class="question-text">question 2</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 3 of 10 </h2>
+              <div class="question-text">question 3</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+
+                  <!-- <div class="answer correct">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+                  <div class="answer-type">aaaaaaa</div>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 4 of 10 </h2>
+              <div class="question-text">question 4</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 5 of 10 </h2>
+              <div class="question-text">question 5</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 6 of 10 </h2>
+              <div class="question-text">question 6</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div>-->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 7 of 10 </h2>
+              <div class="question-text">question 7</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 8 of 10 </h2>
+              <div class="question-text">question 8</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 9 of 10 </h2>
+              <div class="question-text">question 9</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="question-container">
+              <h2 class="question">Question 10 of 10 </h2>
+              <div class="question-text">question 10</div>
+              <div class="answers">
+                  <!-- <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+              </div>
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+              </div> -->
+              </div>
+          </div>
+
+          <div class="submit">
+              <button>Submit your answers ❯ </button>
+          </div>
+
+  </section>
+
+  <!-- <section id="review-quiz">
+      <div class="question-container">
+          <h2 class="question">Question 1 of 10 </h2>
+          <div class="question-text">question 1</div>
+          <div class="answers">
+              <div class="answer">
+                  <input type="radio" name="quiz">
+                  <label>option 1</label>
+                  <div class="answer-type">a</div>
+              </div>
+          </div>
+
+          <div class="answers ">
+              <div class="answer correct">
+                  <input type="radio" name="quiz">
+                  <label>option 2</label>
+                  <div class="answer-type">b</div>
+              </div>
+          </div>
+
+          <div class="answers ">
+              <div class="answer incorrect">
+                  <input type="radio" name="quiz">
+                  <label>option 3</label>
+                  <div class="answer-type">c</div>
+              </div>
+          </div>
+
+          <div class="answers ">
+              <div class="answer almost-correct">
+                  <input type="radio" name="quiz">
+                  <label>option 4</label>
+                  <div class="answer-type">Your answer</div>
+              </div>
+          </div>
+      </div>
+
+  </section> -->
+  
+  
+  <section id="result-quiz">
+      <div class="result-box">
+          <p class="result">Result:</p>
+          <p class="score">1/10</p>
+          <p class="percent">10%</p>
+          <p class="feedback">Practice more to improve it :D</p>
+          <button class="try">Try again</button>
+      </div>
+  </section>
+
+
+</article>
+
+</body>
+
+</html>

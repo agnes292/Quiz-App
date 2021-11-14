@@ -1,0 +1,257 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+
+body {
+    width: 700px;
+    margin: auto;
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #222222;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.course {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ee3322;
+}
+
+.mern {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mern span {
+    background-color: #ffee00;
+    color: #222222;
+    border-radius: 100%;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(-30deg);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-left: 5px;
+}
+
+#quizname {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    height: 425px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background-position: center;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Pangolin', 'Trebuchet MS', cursive;
+    font-size: 60px;
+    color: black;
+    padding: 10px;
+    margin-top: 25%;
+    display: inline-block;
+    max-width: 75%;
+}
+
+#author {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.start {
+    background-color: #f1f1f1;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    margin-top: 36px;
+    flex-direction: column;
+}
+
+.start h2 {
+    padding: 0%;
+    margin-bottom: 18px;
+}
+
+.gl {
+    margin-bottom: 36px;
+}
+
+.start-btn {
+    padding: 18px;
+    color: white;
+    background-color: #2196F3;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background-color: #0d8bf2;
+}
+
+.question {
+    margin-top: 30px;
+}
+
+.question-text {
+    margin-bottom: 30px;
+}
+
+.answer-container {
+    /* answer -> answer-container */
+    margin: 1px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer-container:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.answer-type {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 4px;
+    width: 125px;
+    text-align: center;
+    right: 0;
+    margin-left: auto
+}
+
+.submit {
+    margin-top: 36px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit>button {
+    background-color: #4CAF50;
+    padding: 18px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.submit>button:hover {
+    background-color: #46a049;
+    cursor: pointer;
+}
+
+.answer {
+    padding: 15px;
+    background-color: #f1f1f1;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.answer:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #ddd;
+}
+
+.correct {
+    background-color: #d4edda;
+}
+
+.almost-correct {
+    background-color: #ddd;
+}
+
+.incorrect {
+    background-color: #f8d7da;
+}
+
+#attempt-quiz {
+    display: none;
+}
+
+.result-box {
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    margin-top: 20px;
+}
+
+p.result {
+    font-size: 35px;
+    position: relative;
+    margin: 32px 0 0 0;
+    padding-bottom: 10px;
+}
+
+p.score {
+    font-size: 24px;
+}
+
+p.percent {
+    font-size: 18px;
+}
+
+p.feedback {
+    padding-bottom: 10px;
+}
+
+.try {
+    margin-top: 18px;
+    margin-bottom: 25px;
+    padding: 18px;
+    color: white;
+    background-color: #2196F3;
+    font-size: 1rem;
+    border: none;
+}
+
+.try:hover {
+    background-color: #0d8bf2;
+    cursor: pointer;
+}
+
+label {
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 500px){
+    .mern {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    body {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    body {
+        max-width: 100%;
+    }
+}
+
+
+
